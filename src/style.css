@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(28, 210, 235);
+}
+
+h1 {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+#contenedor-bienvenida {
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(118, 75, 238);
+    color: honeydew;
+    border-radius: 20px;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity ease 0.2s;
+}
+
+#tablero {
+    margin: 50px;
+}
+
+.cuadro {
+    opacity: 0;
+    transition: opacity ease 0.2s;
+    border: 1px solid black;
+}
+
+.columna-juego {
+    border: 1px solid black;
+}
+
+.fila-juego {
+    height: 25vh;
+}
+
+#boton-empezar {
+    margin: 10px;
+}
+
+.oculto {
+    display: none;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.negro {
+    background-color: black;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.completo{
+    background-color: darkgrey;
+}
